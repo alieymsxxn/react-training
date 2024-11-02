@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "My First Blog",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+            "author": "mario"
+        },
+        {
+            "id": 2,
+            "title": "Welcome to the Party!",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+            "author": "yoshi"
+        },
+        {
+            "id": 3,
+            "title": "Web Dev Top Tips",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+            "author": "mario"
+        }
+    ]
+}

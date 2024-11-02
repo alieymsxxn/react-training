@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 3px solid #fafafa;
+}
+.blog-preview h1 {
+  color: #f1356d;
+  font-size: 20px;
+}
+.blog-preview p {
+  color: #333;
+  font-size: 15px;
+}
+.blog-preview .delete-btn {
+  background-color: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  &:hover {
+    background-color: #d11f54;
+  }
+}
+.blog-preview .author {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: #999;
+  padding: 10px;
+}
+.title {
+  margin: 20px;
+}
+.add-blog-btn {
+  background-color: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  &:hover {
+    background-color: #d11f54;
+  }
 }

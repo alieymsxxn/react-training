@@ -78,3 +78,8 @@
     background-color: #d11f54;
   }
 }
+.loading-msg {
+  font-size: 20px;
+  color: #f1356d;
+  padding: 20px;
+}

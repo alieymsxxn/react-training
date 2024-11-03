@@ -59,7 +59,6 @@
     }
 }
 .blog-preview .author {
-    text-transform: capitalize;
     font-size: 14px;
     font-weight: 600;
     color: #999;
@@ -83,4 +82,29 @@
     font-size: 20px;
     color: #f1356d;
     padding: 20px;
+}
+.blog-title {
+    font-size: 24px;
+    color: #f1356d;
+} 
+.blog-author {
+    font-size: 16px;
+    color: #999;
+} 
+.blog-body {
+    font-size: 16px;
+    color: #333;
+    max-width: 50vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    word-wrap: break-word;
+    
+    @media screen and (max-width: 768px) {
+        max-width: 90vw;
+    }
+}
+.blog-list {
+    padding: 20px;
+    margin-top: 50px;
 }

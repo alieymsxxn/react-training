@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/create" element={<CreateBlog />}></Route>
-          <Route path="/blog/:id" element={<BlogDetail />}></Route>
+          <Route path="/react-training-blog" element={<Home />}></Route>
+          <Route path="/react-training-blog/create" element={<CreateBlog />}></Route>
+          <Route path="/react-training-blog/blog/:id" element={<BlogDetail />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

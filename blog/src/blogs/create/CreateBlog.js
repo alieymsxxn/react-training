@@ -1,9 +1,11 @@
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 const CreateBlog = () => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
+  const navigate = useNavigate();
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -14,6 +16,7 @@ const CreateBlog = () => {
       body: JSON.stringify(blog),
     }).then(() => {
       console.log("Blog saved");
+      navigate("/");
     });
   };
 

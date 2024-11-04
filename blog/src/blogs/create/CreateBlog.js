@@ -8,7 +8,13 @@ const CreateBlog = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const blog = { title, author, body };
-    console.log(blog);
+    fetch("http://localhost:8000/blogs", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(blog),
+    }).then(() => {
+      console.log("Blog saved");
+    });
   };
 
   return (
